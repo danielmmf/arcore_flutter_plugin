@@ -600,6 +600,7 @@ class ArCoreView(val activity: Activity, context: Context, messenger: BinaryMess
     }
 
     /* private fun tryPlaceNode(tap: MotionEvent?, frame: Frame) {
+      if (frame != null) {
         if (tap != null && frame.camera.trackingState == TrackingState.TRACKING) {
             for (hit in frame.hitTest(tap)) {
                 val trackable = hit.trackable
@@ -622,6 +623,7 @@ class ArCoreView(val activity: Activity, context: Context, messenger: BinaryMess
                             }
                 }
             }
+        }
         }
 
     }*/
